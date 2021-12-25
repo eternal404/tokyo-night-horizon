@@ -1,4 +1,12 @@
 # Release Notes
+## 1.0.1
+`2021-12-25`
+- Update information on README & changelog.
+
+## 1.0.0
+`2021-12-25`
+- Change syntax highlighting to match horizon's
+
 ## 0.8.4
 `2021-12-24`
 - Add Preview in vscode.dev badge
@@ -117,7 +125,7 @@
 
 ## 0.6.0
 `2020-07-27`
-- Update terminal black color for Tokyo Night Storm and iTerm. 
+- Update terminal black color for Tokyo Night Storm and iTerm.
 
 ## 0.5.9
 `2020-07-14`
@@ -164,7 +172,7 @@
 
 ## 0.4.9
 `2020-03-11`
-- Update readme to reference the new semantic highlighting feature. 
+- Update readme to reference the new semantic highlighting feature.
 
 ## 0.4.8
 `2020-01-01`
