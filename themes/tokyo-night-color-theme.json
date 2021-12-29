@@ -5,32 +5,6 @@
       "Enkia <enki77@gmail.com>"
    ],
    "type": "dark",
-   "semanticTokenColors": {
-      "parameter.declaration": {
-         "foreground": "#e0af68"
-      },
-      "parameter": {
-         "foreground": "#d9d4cd"
-      },
-      "property.declaration": {
-         "foreground": "#73daca"
-      },
-      "property.defaultLibrary": {
-         "foreground": "#2ac3de"
-      },
-      "*.defaultLibrary": {
-         "foreground": "#2ac3de"
-      },
-      "variable.defaultLibrary": {
-         "foreground": "#2ac3de"
-      },
-      "variable.declaration": {
-         "foreground": "#bb9af7"
-      },
-      "variable": {
-         "foreground": "#c0caf5"
-      }
-   },
    "semanticClass": "tokyo-night",
    "colors": {
       "foreground": "#787c99",
@@ -365,7 +339,11 @@
       },
       {
          "name": "Function names",
-         "scope": "entity.name.function",
+         "scope": [
+            "entity.name.function",
+            "entity.name.function.python",
+            "meta.function-call.generic.python"
+         ],
          "settings": {
             "foreground": "#60c5ff"
          }
@@ -375,7 +353,7 @@
          "scope": "entity.name.tag",
          "settings": {
             "foreground": "#E95678E6",
-            "fontStyle": "normal"
+            "fontStyle": ""
          }
       },
       {
@@ -393,7 +371,7 @@
          "scope": "entity.other.attribute-name",
          "settings": {
             "foreground": "#F09483E6",
-            "fontStyle": "normal"
+            "fontStyle": ""
          }
       },
       {
@@ -424,10 +402,25 @@
          "name": "Variable names",
          "scope": [
             "entity.name.variable",
-            "variable"
+            "variable",
+            "meta.attribute.python",
+            "meta.member.access.python",
+            "source.python",
+            "meta.function-call.arguments.python"
          ],
          "settings": {
             "foreground": "#E95678E6"
+         }
+      },
+      {
+         "name": "Python Brackets",
+         "scope": [
+            "meta.function-call.python",
+            "punctuation.definition.parameters.end.python",
+            "meta.function.parameters.python"
+         ],
+         "settings": {
+            "foreground": "#a9b1d6"
          }
       },
       {
@@ -435,7 +428,7 @@
          "scope": "keyword",
          "settings": {
             "foreground": "#B877DBE6",
-            "fontStyle": "normal"
+            "fontStyle": ""
          }
       },
       {
@@ -520,7 +513,7 @@
          "scope": "storage",
          "settings": {
             "foreground": "#B877DBE6",
-            "fontStyle": "normal"
+            "fontStyle": ""
          }
       },
       {
@@ -614,7 +607,7 @@
          "scope": "punctuation.definition.tag",
          "settings": {
             "foreground": "#E95678B3",
-            "fontStyle": "normal"
+            "fontStyle": ""
          }
       },
       {
