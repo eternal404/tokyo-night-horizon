@@ -1,8 +1,9 @@
 {
-   "name": "Tokyo Night",
+   "name": "Tokyo Night Horizon",
    "author": "Enkia",
    "maintainers": [
-      "Enkia <enki77@gmail.com>"
+      "Enkia <enki77@gmail.com>",
+      "eternal <eternal.git@gmail.com>"
    ],
    "type": "dark",
    "semanticClass": "tokyo-night",
