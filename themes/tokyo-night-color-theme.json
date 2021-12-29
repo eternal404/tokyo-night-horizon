@@ -311,7 +311,10 @@
    "tokenColors": [
       {
          "name": "Comments",
-         "scope": "comment",
+         "scope": [
+            "comment",
+            "source.python punctuation.definition.comment"
+         ],
          "settings": {
             "foreground": "#BBBBBB4D",
             "fontStyle": "italic"
@@ -407,14 +410,15 @@
             "meta.attribute.python",
             "meta.member.access.python",
             "source.python",
-            "meta.function-call.arguments.python"
+            "source.python meta.function-call.arguments",
+            "source.python entity.other.inherited-class"
          ],
          "settings": {
             "foreground": "#E95678E6"
          }
       },
       {
-         "name": "Python Brackets",
+         "name": "Python Brackets/Punctuation",
          "scope": [
             "source.python meta.function-call",
             "source.python punctuation.definition.parameters",
@@ -422,7 +426,9 @@
             "source.python meta.function.parameters",
             "source.python punctuation.parenthesis",
             "source.python definition.arguments",
-            "source.python punctuation.definition"
+            "source.python punctuation.definition",
+            "source.python punctuation.section.class",
+            "source.python punctuation.section.function"
          ],
          "settings": {
             "foreground": "#A9B1D6"
@@ -525,7 +531,8 @@
          "name": "Strings",
          "scope": [
             "string.quoted",
-            "string.template"
+            "string.template",
+            "punctuation.definition.string"
          ],
          "settings": {
             "foreground": "#FAB795E6"
