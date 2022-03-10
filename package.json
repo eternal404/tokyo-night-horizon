@@ -15,13 +15,13 @@
       "clean"
    ],
    "icon": "icon.png",
-   "homepage": "https://github.com/slow/tokyo-night-horizon",
+   "homepage": "https://github.com/localip/tokyo-night-horizon",
    "repository": {
-      "url": "https://github.com/slow/tokyo-night-horizon",
+      "url": "https://github.com/localip/tokyo-night-horizon",
       "type": "git"
    },
    "bugs": {
-      "url": "https://github.com/slow/tokyo-night-horizon/issues"
+      "url": "https://github.com/localip/tokyo-night-horizon/issues"
    },
    "galleryBanner": {
       "color": "#1f2335",
