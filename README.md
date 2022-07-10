@@ -5,8 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/enkia/tokyo-night-vscode-theme)](https://github.com/localip/tokyo-night-horizon/issues)
 <br><br>A clean Visual Studio Code theme with Horizon's syntax highlighting that celebrates the lights of Downtown Tokyo at night.
 ## Screenshots
-Tokyo Night Horizon
-![Screenshot - Tokyo Night Horizon](https://raw.githubusercontent.com/localip/tokyo-night-horizon/master/static/ss_tokyo_night_horizon.png)
+![Screenshot](https://raw.githubusercontent.com/localip/tokyo-night-horizon/master/static/ss_tokyo_night_horizon.png)
 
 ## Original Theme
 https://github.com/enkia/tokyo-night-vscode-theme
