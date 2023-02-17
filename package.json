@@ -2,7 +2,7 @@
    "name": "tokyo-night-horizon",
    "displayName": "Tokyo Night Horizon",
    "description": "A clean Visual Studio Code theme with Horizon's syntax highlighting that celebrates the lights of Downtown Tokyo at night.",
-   "version": "1.0.4",
+   "version": "1.0.5",
    "author": "enkia",
    "publisher": "eternal",
    "license": "MIT",
@@ -15,13 +15,13 @@
       "clean"
    ],
    "icon": "icon.png",
-   "homepage": "https://github.com/slow/tokyo-night-horizon",
+   "homepage": "https://github.com/localip/tokyo-night-horizon",
    "repository": {
-      "url": "https://github.com/slow/tokyo-night-horizon",
+      "url": "https://github.com/localip/tokyo-night-horizon",
       "type": "git"
    },
    "bugs": {
-      "url": "https://github.com/slow/tokyo-night-horizon/issues"
+      "url": "https://github.com/localip/tokyo-night-horizon/issues"
    },
    "galleryBanner": {
       "color": "#1f2335",
@@ -39,7 +39,12 @@
          {
             "label": "Tokyo Night Horizon",
             "uiTheme": "vs-dark",
-            "path": "./themes/tokyo-night-color-theme.json"
+            "path": "./themes/tokyo-night-horizon.json"
+         },
+         {
+            "label": "Tokyo Night Horizon (Syntax, Dark+)",
+            "uiTheme": "vs-dark",
+            "path": "./themes/tokyo-night-horizon-dark-plus.json"
          }
       ]
    },
