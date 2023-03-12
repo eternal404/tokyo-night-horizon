@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "Tokyo Night Horizon",
   "author": "Enkia",
   "maintainers": [
